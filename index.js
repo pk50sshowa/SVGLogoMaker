@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
 const MaxLengthInputPrompt = require('inquirer-maxlength-input-prompt');
 
 inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt)
@@ -30,7 +31,7 @@ inquirer
   ]).then(console.log)
 
 //   .then((response) =>
-//     writeFile(`${response.name}.json`, JSON.stringify(response),  err => { 
+//     writeFile(`logo.svg`, JSON.stringify(response),  err => { 
 //         if (err) {
 //             throw err;
 //         }
