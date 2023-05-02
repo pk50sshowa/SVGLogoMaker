@@ -1,3 +1,5 @@
+// This is a test suite run by "npm test" that checks to see if SVG creation conditions meet ideal conditions
+
 const {Circle, Square, Triangle} = require("../lib/shapes")
 
 describe('Circle', () => {
